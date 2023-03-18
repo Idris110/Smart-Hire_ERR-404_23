@@ -38,6 +38,7 @@ const BlogAuther =  React.lazy(() => import("../pages/Blog/BlogAuther/BlogAuther
 
 //const Contacts 
 const Contact =  React.lazy(() => import("../pages/Contact/UserReqire"));
+const EditProfile = React.lazy(() => import("../pages/Profile/Edit Profile/EditProfile.js"));
 
 //const AuthPages
 const SignIn =  React.lazy(() => import("../pages/ExtraPages/SignIn"));
@@ -68,6 +69,7 @@ const userRoutes = [
 
   //Contact
   { path : "/job-requirements", component: Contact },
+  { path : "/edit-profile", component: EditProfile },
 
   // Blog Section
   { path : "/blogauther", component: BlogAuther },
