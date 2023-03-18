@@ -12,7 +12,7 @@ const JobsCategories = () => {
             </MetaTags>
             <Section/>
             <Categories/>
-            <Cta/>
+            {/* <Cta/> */}
         </React.Fragment>
     )
 }

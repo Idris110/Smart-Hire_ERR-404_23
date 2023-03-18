@@ -275,9 +275,9 @@ const CandidateDetails = () => {
                                     </div>
                                 </Col>
                             </Row>
-                            <div className="favorite-icon">
+                            {/* <div className="favorite-icon">
                                 <Link to="#"><i className="uil uil-heart-alt fs-18"></i></Link>
-                            </div>
+                            </div> */}
                         </CardBody>
                     </div>
                 ))}

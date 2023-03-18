@@ -10,7 +10,7 @@ const JobFilters = () => {
         <React.Fragment>
                             <Row className="justify-content-center">
                                 <Col lg={12} >
-                                    <div className="candidate-list-widgets mb-4">
+                                    <div className="candidate-list-widgets mb-5">
                                         <Form action="#">
                                             <Row className="g-2">
                                                 <Col lg={3}>
@@ -38,7 +38,7 @@ const JobFilters = () => {
                                                 <Col lg={3}>
                                                     <div>
                                                         <Link to="#" className="btn btn-primary"><i className="uil uil-filter"></i> Filter</Link>
-                                                        <Link to="#" className="btn btn-success ms-2"><i className="uil uil-cog"></i> Advance</Link>
+                                                        {/* <Link to="#" className="btn btn-success ms-2"><i className="uil uil-cog"></i> Advance</Link> */}
                                                     </div>
                                                 </Col>
                                             </Row>

@@ -143,7 +143,7 @@ const NavBar = (props) => {
                                     <li><Link className="dropdown-item" to="/layout3">Home 3</Link></li>
                                 </ul>
                             </NavItem>
-                            <NavItem className="dropdown dropdown-hover">
+                            {/* <NavItem className="dropdown dropdown-hover">
                                 <NavLink to="/#" id="jobsdropdown" role="button" onClick={() => setCompany(!company)}>
                                     Company <div className="arrow-down"></div>
                                 </NavLink>
@@ -155,7 +155,7 @@ const NavBar = (props) => {
                                     <Link className="dropdown-item" to="/privacyandpolicy">Priacy & Policy</Link>
                                     <li><Link className="dropdown-item" to="/faqs">Faqs</Link></li>
                                 </ul>
-                            </NavItem>
+                            </NavItem> */}
                             <li className="nav-item dropdown dropdown-hover">
                                 <Link to="/#" id="pagesdoropdown" className="nav-link dropdown-toggle arrow-none" onClick={() => setPages(!pages)}>
                                     Pages
@@ -199,7 +199,7 @@ const NavBar = (props) => {
                                     </Row>
                                 </div>
                             </li>
-                            <NavItem className="dropdown dropdown-hover">
+                            {/* <NavItem className="dropdown dropdown-hover">
                                 <NavLink to="/#" id="productdropdown" role="button" data-bs-toggle="dropdown" onClick={() => setBlog(!blog)}>
                                     Success Stories
                                     <div className="arrow-down"></div>
@@ -207,13 +207,22 @@ const NavBar = (props) => {
                                 <ul className={classname("dropdown-menu dropdown-menu-center", { show: blog })} aria-labelledby="productdropdown">
                                     <li><Link className="dropdown-item" to="/blog">Admin Stories</Link></li>
                                     <li><Link className="dropdown-item" to="/bloggrid">User Stories</Link></li>
-                                    {/* <li><Link className="dropdown-item" to="/blogmasonary">User Stories</Link></li>
+                                    <li><Link className="dropdown-item" to="/blogmasonary">User Stories</Link></li>
                                     <li><Link className="dropdown-item" to="/blogmodern">Blog Modern</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogdetails">Blog details</Link></li> */}
+                                    <li><Link className="dropdown-item" to="/blogdetails">Blog details</Link></li>
                                 </ul>
+                            </NavItem> */}
+                            <NavItem>
+                                <Link className="nav-link" to="/jobscategories">Resume Status</Link>
                             </NavItem>
                             <NavItem>
-                                <Link className="nav-link" to="/get-tips">Get a Tip</Link>
+                                <Link className="nav-link" to="/bloggrid">Success Stories</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/candidatelist">Candidate List</Link>
+                            </NavItem>
+                            <NavItem>
+                                <Link className="nav-link" to="/get-tips">Blogs</Link>
                             </NavItem>
                             <NavItem>
                                 <Link className="nav-link" to="/job-requirements">Job Requirements</Link>
